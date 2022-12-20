@@ -1,0 +1,11 @@
+import re
+ 
+A = '#2a$#b%c%561# '
+ 
+print("The original string is : " + str(A))
+
+K = '#'
+ 
+res = re.sub(r'\d', K, A)
+         
+print("The resultant string : " + str(res))
